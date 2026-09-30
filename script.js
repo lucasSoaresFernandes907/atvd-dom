@@ -25,3 +25,16 @@ buttonprincipal.addEventListener("click", function() {
     caixas[2].style.backgroundColor = " rgb(83, 107, 243";
 
 });
+
+let isabella = document.getElementById("isabella");
+let isabelaJoao = document.getElementById("isabelajoao");
+
+isabella.addEventListener("click", function() {
+    isabella.style.display = "none";
+    isabelaJoao.style.display = "block";
+});
+
+isabelaJoao.addEventListener("click", function() {
+    isabelaJoao.style.display = "none";
+    isabella.style.display = "block";
+});
